@@ -29,6 +29,7 @@
     "dev": "vp pack --watch",
     "prepare": "vp config",
     "prepublishOnly": "vp run build",
+    "release": "bumpp && vp pm publish",
     "test": "vp test"
   },
   "devDependencies": {

@@ -1,26 +1,3 @@
-import { defineConfig } from "vite-plus";
+import { liangmi } from '@liangmi/vp-config'
 
-export default defineConfig({
-  staged: {
-    "*": "vp check --fix",
-  },
-  pack: {
-    deps: {
-      // tsdown <0.23 compatibility: resolve external dependency subpaths.
-      // Remove to preserve subpath imports as written (the new default).
-      // https://tsdown.dev/options/dependencies#deps-resolvedepsubpath
-      resolveDepSubpath: true,
-    },
-    dts: {
-      generator: "tsgo",
-    },
-    exports: true,
-  },
-  lint: {
-    options: {
-      typeAware: true,
-      typeCheck: true,
-    },
-  },
-  fmt: {},
-});
+export default liangmi({/* Your own config, deeply merged over the preset */})

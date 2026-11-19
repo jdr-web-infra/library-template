@@ -1,17 +1,7 @@
 {
-  "name": "template",
+  "name": "@jdr-web-infra/template",
   "version": "0.0.0",
-  "description": "A starter for creating a TypeScript package.",
-  "homepage": "https://github.com/author/library#readme",
-  "bugs": {
-    "url": "https://github.com/author/library/issues"
-  },
-  "license": "MIT",
-  "author": "Author Name <author.name@mail.com>",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/author/library.git"
-  },
+  "license": "UNLICENSED",
   "files": [
     "dist"
   ],
@@ -25,15 +15,16 @@
   },
   "scripts": {
     "build": "vp pack",
-    "dev": "vp pack --watch",
-    "test": "vp test",
     "check": "vp check",
+    "dev": "vp pack --watch",
+    "prepare": "vp config",
     "prepublishOnly": "vp run build",
-    "prepare": "vp config"
+    "test": "vp test"
   },
   "devDependencies": {
-    "@types/node": "^26.6.5",
-    "typescript": "^7.0.2",
+    "@liangmi/vp-config": "1.0.1",
+    "@types/node": "26.6.6",
+    "typescript": "7.0.2",
     "vite-plus": "catalog:"
   },
   "devEngines": {

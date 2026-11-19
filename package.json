@@ -1,7 +1,7 @@
 {
   "name": "@jdr-web-infra/template",
   "version": "0.0.0",
-  "license": "MIT",
+  "license": "UNLICENSED",
   "files": [
     "dist"
   ],

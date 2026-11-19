@@ -6,4 +6,6 @@ minimumReleaseAgeExclude:
   - '@jdr-web-infra/*'
 overrides:
   vite@*: 'catalog:'
+registries:
+  default: https://registry.npmjs.org/
 saveExact: true

@@ -1,10 +1,10 @@
-import path from 'node:path'
+import { fileURLToPath, URL } from 'node:url'
 
 import { liangmi } from '@liangmi/vp-config'
 import type { AliasOptions } from 'vite-plus'
 
 const alias: AliasOptions = {
-  '@': path.resolve(__dirname, './src')
+  '@': fileURLToPath(new URL('src', import.meta.url))
 }
 
 export default liangmi({

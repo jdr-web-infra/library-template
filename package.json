@@ -1,12 +1,6 @@
 {
   "name": "@jdr-web-infra/library-template",
   "version": "0.0.0",
-  "homepage": "https://github.com/jdr-web-infra/library-template#readme",
-  "bugs": {
-    "url": "https://github.com/jdr-web-infra/library-template/issues"
-  },
-  "license": "MIT",
-  "author": "Yongqi (Ari) He <heyq02@qq.com>",
   "repository": {
     "type": "git",
     "url": "https://github.com/jdr-web-infra/library-template.git"
@@ -24,13 +18,8 @@
     "registry": "https://registry.npmjs.org"
   },
   "scripts": {
-    "build": "vp pack",
-    "check": "vp check",
-    "dev": "vp pack --watch",
     "prepare": "vp config",
-    "prepublishOnly": "vp run build",
-    "release": "bumpp && vp pm publish",
-    "test": "vp test"
+    "prepublishOnly": "vp pack"
   },
   "devDependencies": {
     "@liangmi/vp-config": "1.0.1",

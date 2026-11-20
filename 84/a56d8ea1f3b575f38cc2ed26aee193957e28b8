@@ -1,0 +1,18 @@
+README.md
+  h_a57efa94f24ca5 1,33-34
+package.json
+  h_a57efa94f24ca5 22
+tsconfig.json
+  h_a57efa94f24ca5 20
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "84a56d8ea1f3b575f38cc2ed26aee193957e28b8",
+  "prompts": {},
+  "humans": {
+    "h_a57efa94f24ca5": {
+      "author": "heyongqi10 <heyongqi10@jd.com>"
+    }
+  }
+}

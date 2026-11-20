@@ -13,6 +13,7 @@ export default liangmi({
     alias
   },
   test: {
-    alias
+    alias,
+    disableConsoleIntercept: true
   }
 })

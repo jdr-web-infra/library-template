@@ -1,0 +1,13 @@
+name: Release GitHub Package
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  release:
+    uses: jdr-web-infra/workflows/.github/workflows/release-gh-pkg.yml@main
+    permissions:
+      contents: write
+      packages: write

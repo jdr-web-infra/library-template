@@ -10,4 +10,5 @@ overrides:
   vite@*: 'catalog:'
 registries:
   default: https://registry.npmjs.org/
+  '@jdr-web-infra': https://npm.pkg.github.com/
 saveExact: true

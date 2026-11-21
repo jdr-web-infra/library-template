@@ -1,0 +1,22 @@
+.github/workflows/release-gh-pkg.yml
+  h_a57efa94f24ca5 1,10,13
+package.json
+  h_a57efa94f24ca5 10,17
+pnpm-lock.yaml
+  h_a57efa94f24ca5 190-192,535-537,1573-1574
+pnpm-workspace.yaml
+  h_a57efa94f24ca5 13
+tsconfig.json
+  h_a57efa94f24ca5 2
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "18b71f65693e0adc1d5681122922d9e58ff9ea71",
+  "prompts": {},
+  "humans": {
+    "h_a57efa94f24ca5": {
+      "author": "heyongqi10 <heyongqi10@jd.com>"
+    }
+  }
+}

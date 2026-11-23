@@ -7,7 +7,11 @@ on:
 
 jobs:
   release:
-    uses: jdr-web-infra/workflows/.github/workflows/release-gh-pkg.yml@main
+    uses: heyq02/workflows/.github/workflows/release-gh-pkg.yml@main
     permissions:
+      id-token: write
       contents: write
       packages: write
+    with:
+      github-package-publish: true
+      github-package-scope: '@jdr-web-infra'

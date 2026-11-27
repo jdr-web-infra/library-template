@@ -68,9 +68,9 @@ _🤖 auto updated with [automd](https://automd.unjs.io)_
 
 <!-- /automd -->
 
-[npm-version-src]: https://img.shields.io/github/v/release/jdretail/library-template?style=flat&colorA=18181B&colorB=F0DB4F
-[npm-version-href]: https://npmjs.com/package/consola
-[npm-downloads-src]: https://img.shields.io/github/downloads/jdretail/library-template/total?style=flat&colorA=18181B&colorB=F0DB4F
-[npm-downloads-href]: https://npmjs.com/package/consola
-[bundle-src]: https://img.shields.io/github/repo-size/jdretail/library-template?style=flat&colorA=18181B&colorB=F0DB4F
-[bundle-href]: https://bundlephobia.com/result?p=consola
+[npm-version-src]: https://img.shields.io/github/v/release/heyq02/library-template?style=flat&colorA=18181B&colorB=F0DB4F
+[npm-version-href]: https://github.com/heyq02/library-template/pkgs/npm/library-template
+[npm-downloads-src]: https://img.shields.io/github/downloads/heyq02/library-template/total?style=flat&colorA=18181B&colorB=F0DB4F
+[npm-downloads-href]: https://github.com/heyq02/library-template/pkgs/npm/library-template
+[bundle-src]: https://img.shields.io/github/repo-size/heyq02/library-template?style=flat&colorA=18181B&colorB=F0DB4F
+[bundle-href]: https://github.com/heyq02/library-template/pkgs/npm/library-template

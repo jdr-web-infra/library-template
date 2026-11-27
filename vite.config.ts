@@ -9,6 +9,10 @@ const alias: AliasOptions = {
 
 export default liangmi({
   /* Your own config, deeply merged over the preset */
+  pack: {
+    attw: true,
+    publint: true
+  },
   resolve: {
     alias
   },

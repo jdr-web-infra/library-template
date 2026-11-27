@@ -14,4 +14,4 @@ jobs:
       packages: write
     with:
       github-package-publish: true
-      github-package-scope: '@jdr-web-infra'
+      github-package-scope: '@heyq02'

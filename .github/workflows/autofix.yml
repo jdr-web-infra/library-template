@@ -1,0 +1,11 @@
+name: autofix.ci
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  autofix:
+    uses: heyq02/workflows/.github/workflows/autofix.yml@main
+    permissions:
+      contents: read

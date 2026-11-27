@@ -1,0 +1,14 @@
+name: Test
+
+on:
+  push:
+
+jobs:
+  test:
+    uses: heyq02/workflows/.github/workflows/test.yml@main
+    permissions:
+      id-token: write
+      contents: write
+      packages: write
+    with:
+      coverage: true

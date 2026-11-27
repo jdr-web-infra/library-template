@@ -12,22 +12,22 @@ This is a minimum template for developing Npm package.
 
 ```sh
 # ✨ Auto-detect
-npx nypm install @jdretail/library-template
+npx nypm install @heyq02/library-template
 
 # npm
-npm install @jdretail/library-template
+npm install @heyq02/library-template
 
 # yarn
-yarn add @jdretail/library-template
+yarn add @heyq02/library-template
 
 # pnpm
-pnpm add @jdretail/library-template
+pnpm add @heyq02/library-template
 
 # bun
-bun install @jdretail/library-template
+bun install @heyq02/library-template
 
 # deno
-deno install npm:@jdretail/library-template
+deno install npm:@heyq02/library-template
 ```
 
 <!-- /automd -->
@@ -52,10 +52,10 @@ deno install npm:@jdretail/library-template
 
 <!-- automd:contributors author="heyq02" -->
 
-Made by [@heyq02](https://github.com/heyq02) and [community](https://github.com/jdretail/library-template/graphs/contributors) 💛
+Made by [@heyq02](https://github.com/heyq02) and [community](https://github.com/heyq02/library-template/graphs/contributors) 💛
 <br><br>
-<a href="https://github.com/jdretail/library-template/graphs/contributors">
-<img src="https://contrib.rocks/image?repo=jdretail/library-template" />
+<a href="https://github.com/heyq02/library-template/graphs/contributors">
+<img src="https://contrib.rocks/image?repo=heyq02/library-template" />
 </a>
 
 <!-- /automd -->

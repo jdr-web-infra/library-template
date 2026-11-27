@@ -11,7 +11,9 @@ export default liangmi({
   /* Your own config, deeply merged over the preset */
   pack: {
     attw: true,
-    publint: true
+    exports: true,
+    publint: true,
+    sourcemap: true
   },
   resolve: {
     alias

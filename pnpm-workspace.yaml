@@ -3,12 +3,11 @@ allowBuilds:
 catalog:
   vite: npm:@voidzero-dev/vite-plus-core@8.3.8000
   vite-plus: 1.7.0
-minimumReleaseAge: 1440
 minimumReleaseAgeExclude:
-  - '@jdr-web-infra/*'
+  - '@heyq02/*'
 overrides:
   vite@*: 'catalog:'
 registries:
   default: https://registry.npmjs.org/
-  '@jdr-web-infra': https://npm.pkg.github.com/
+  '@heyq02': https://npm.pkg.github.com/
 saveExact: true

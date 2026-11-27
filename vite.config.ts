@@ -15,5 +15,10 @@ export default liangmi({
   test: {
     alias,
     disableConsoleIntercept: true
+  },
+  run: {
+    tasks: {
+      app: 'vpx --env-file=.env.test ./src/app.ts'
+    }
   }
 })
